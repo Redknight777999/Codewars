@@ -14,6 +14,7 @@
 
 
 // Return an array
-function fizzbuzz(n) {
-	//
-}
+// function fizzbuzz(n) {
+// 	//
+// }
+// fizzbuzz();
