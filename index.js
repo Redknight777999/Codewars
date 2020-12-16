@@ -24,9 +24,18 @@
 // Создаем массив длины  N
 // Заполняем массив числам от 1 до N
 
-// let N = 15;
-// let foo = [];
+let N = 15;
+let foo = [];
 
-// for (let i = 1; i <= N; i++) {
-// 	foo.push(i);
-// }
+for (let i = 1; i <= N; i++) {
+	foo.push(i);
+}
+
+// Берем каждое число и проверяем на делимость без остатка на 3 и 5
+for (let i = 1; i <= foo.length; i++) {
+	if (foo[i] % 3 == 0 && foo[i] % 5 == 0) (foo[i] = 'FizzBuzz')
+	else if (foo[i] % 5 == 0) (foo[i] = 'Buzz')
+	else if (foo[i] % 3 == 0) (foo[i] = 'Fizz')
+}
+
+console.log(foo);
