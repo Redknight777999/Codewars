@@ -1,5 +1,8 @@
-Решение задач Codewars Stage 1
+TASK NAME: Shortest Word
 
-https://docs.google.com/document/d/1NaKsADcJZQ0BkxdDCzYbIspAXXtTLn1DNyjGEcMyqCU/edit?usp=sharing
+URL: https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9/train/javascript
 
-из программы EPAM https://docs.google.com/spreadsheets/d/1T0QZx138BnHaiqUcc-HtQx8rMLBwCypocTcxTTIyGmY/edit?usp=sharing
+INSTRUCTIONS:
+Simple, given a string of words, return the length of the shortest word(s).
+
+String will never be empty and you do not need to account for different data types.
