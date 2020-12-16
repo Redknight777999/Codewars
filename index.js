@@ -10,7 +10,13 @@ let mult
 for (let i = 0; i < arr.length; i++) {
 	arr[i] = arr[i] * arr[i];
 }
-console.log(arr);
+
+let newStr = arr.join('')
+
+let integer = parseInt(newStr, 10);
+
+console.log(integer);
+console.log(typeof integer);
 
 // console.log(typeof parsed);
 
