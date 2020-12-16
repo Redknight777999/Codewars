@@ -36,17 +36,17 @@
 // (Создание файла .gitignore, чтобы не синхронизировать библиотеку Lodash)
 
 
-import _ from 'lodash'
+// import _ from 'lodash'
 
-let dragon = (name, size, element) =>
-	name + ' is a ' + size + ' dragon that breathes ' + element + '!'
+// let dragon = (name, size, element) =>
+// 	name + ' is a ' + size + ' dragon that breathes ' + element + '!'
 
-let fluffykinsDragon = dragon('fluffykins')
-let tinyDragon = fluffykinsDragon('tiny')
+// let fluffykinsDragon = dragon('fluffykins')
+// let tinyDragon = fluffykinsDragon('tiny')
 
-dragon = _.curry(dragon)
+// dragon = _.curry(dragon)
 
-console.log(tinyDragon('lightning'));
+// console.log(tinyDragon('lightning'));
 
 // SyntaxError: Cannot use import statement outside a module
 
@@ -64,3 +64,17 @@ console.log(tinyDragon('lightning'));
 // let lightningDragons = dragons.filter(x => hasElement('lightning', x))
 
 // console.log(lightningDragons);
+
+
+// ====================================
+// multiplyAll([1, 2, 3])(2) = [2, 4, 6];
+
+
+// function multiply(array) {
+// 	var sum = 1;
+// 	for (var i = 0; i < array.length; i++) {
+// 		sum = sum * array[i];
+// 	}
+// 	return sum;
+// }
+// console.log(multiply([1, 2, 3]));
