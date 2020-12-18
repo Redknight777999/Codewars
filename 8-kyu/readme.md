@@ -1,8 +1,8 @@
-TASK NAME: Opposite number
+**TASK NAME:** Opposite number
 
-URL: https://www.codewars.com/kata/5805ed25c2799821cb000005/train/javascript
+**URL:** https://www.codewars.com/kata/5805ed25c2799821cb000005/train/javascript
 
-INSTRUCTIONS: Very simple, given a number, find its opposite.
+**INSTRUCTIONS:** Very simple, given a number, find its opposite.
 
 Examples:
 
@@ -10,6 +10,6 @@ Examples:
 14: -14
 -34: 34
 
-ПЕРЕВОД: Очень просто, дано число, найдите его противоположность.
+**ПЕРЕВОД:** Очень просто, дано число, найдите его противоположность.
 
-TAGS: #найти противоположное число, #взять число по модулю
+**TAGS:** #найти противоположное число, #взять число по модулю
