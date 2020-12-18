@@ -1,5 +1,5 @@
 // function rentalCarCost(d) {
-// 	// Your solution here
+
 // }
 
 let d = 1;
